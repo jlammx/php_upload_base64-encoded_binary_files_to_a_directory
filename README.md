@@ -25,7 +25,7 @@ If filename does not exist, the file is created. Otherwise, the existing file is
 ### Summary
 A encoded file is a file that has been transformed into a different format from the original to facilitate transfer and storage. Some examples of file encoding include Base64, UTF-8, and ASCII. File encoding can make the file easier to handle for users, as encoded files may be easier to read and download in some web browsers. However, file encoding can also increase file size and decrease data transfer efficiency.
 
-Overall, the best way to send a file over the web will depend on the file type, the purpose of the transfer, and user preferences. If data transfer efficiency is a priority, you may want to send a binary file. If readability and ease of use are more important, you may want to send an encoded file. In any case, it is important to ensure file transfer is secure and complies with applicable privacy and security policies and requirements. - Chat GPT
+Overall, the best way to send a file over the web will depend on the file type, the purpose of the transfer, and user preferences. If data transfer efficiency is a priority, you may want to send a [binary file](https://github.com/jlammx/php_upload_binary_files_to_a_directory). If readability and ease of use are more important, you may want to send an [encoded file](https://github.com/jlammx/php_upload_base64-encoded_binary_files_to_a_directory). In any case, it is important to ensure file transfer is secure and complies with applicable privacy and security policies and requirements. - Chat GPT
 
 
 ### Create HTML form
@@ -111,4 +111,4 @@ The form should contain the attributes as **method=’post’** and **enctype=�
 	</div>
 </p>
 
-<p align="center"> Last updated at 14 Mar 2023</p>
+<p align="center"> Last updated at 20 Mar 2023</p>
